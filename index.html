@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação da Saúde de Plantas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Diagnóstico</a></li>
+                <li><a href="#">Galeria de Doenças</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home-banner">
+            <h1>Bem-vindo ao Diagnóstico de Saúde das Plantas!</h1>
+            <p>Ajudamos você a cuidar melhor de suas plantas e entender suas necessidades.</p>
+            <a href="#diagnostico" class="cta-btn">Verificar Saúde da Planta</a>
+        </section>
+
+        <section id="diagnostico">
+            <h2>Faça o Diagnóstico da Sua Planta</h2>
+            <form>
+                <label for="tipo-planta">Tipo de Planta:</label>
+                <select id="tipo-planta">
+                    <option value="cacto">Cacto</option>
+                    <option value="rosa">Rosa</option>
+                    <option value="tomate">Tomate</option>
+                </select>
+
+                <label for="estado-planta">Estado da Planta:</label>
+                <select id="estado-planta">
+                    <option value="saudavel">Saudável</option>
+                    <option value="doente">Doente</option>
+                    <option value="em-recuperacao">Em Recuperação</option>
+                </select>
+
+                <label for="sintomas">Sintomas Observados:</label>
+                <textarea id="sintomas" rows="4"></textarea>
+
+                <label for="imagem-planta">Imagem da Planta:</label>
+                <input type="file" id="imagem-planta">
+
+                <button type="submit">Verificar Saúde</button>
+            </form>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Doenças Comuns</h2>
+            <p>Explore as doenças mais comuns que afetam plantas e saiba como tratá-las.</p>
+            <!-- Galeria de doenças será aqui -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Diagnóstico de Saúde das Plantas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
 
