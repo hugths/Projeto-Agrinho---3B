@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-btn {
+    background-color: #e76f51;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#home-banner {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#diagnostico {
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#diagnostico form {
+    display: grid;
+    gap: 15px;
+}
+
+#diagnostico button {
+    background-color: #e76f51;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#diagnostico button:hover {
+    background-color: #f4a261;
+}
+
+footer {
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
