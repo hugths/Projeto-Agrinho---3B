@@ -76,3 +76,7 @@ footer {
     width: 100%;
 }
 
+section{
+    border-radius: 20px;
+    margin: 1px solid black;
+}
