@@ -1,0 +1,11 @@
+ /* Estilo para a imagem preencher a altura da coluna */
+        .img-fluid-fill {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+        }
+
+        /* Opcional: Adicionar um espaçamento interno à seção */
+        .section-padding {
+            padding: 50px 0;
+        }
